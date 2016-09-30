@@ -1,7 +1,7 @@
 #include <iostream>
 
 #include "passgrid.hh"
-#include "path.hh"
+//#include "path.hh"
 
 int main()
 {
@@ -10,10 +10,9 @@ int main()
   pg.reset();
   std::cout << std::endl;
   pg.print();
-  
+
   Path c(5,4,5);
   c.print();
   std::cout<< pg.generate(c) << std::endl;
 
-  
 }
